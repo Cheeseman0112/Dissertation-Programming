@@ -1,0 +1,8 @@
+SVM:
+python -m experiments.run_svm --dataset {datasetName}
+
+LSTM:
+python -m experiments.run_lstm --dataset {datasetName} --epochs 3
+
+BERT:
+python -m experiments.run_bert --dataset {datasetName}
